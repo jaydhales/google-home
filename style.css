@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+body {
+    color: #222;
+}
+section {
+    margin: 1rem auto;
+}
+svg {
+    width: 24px;
+}
+a {
+    margin: 5px;
+    padding: 5px;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+}
+header a {
+    color: #222;
+}
+nav {
+    margin-left: 1rem;
+}
+.features {
+    display: flex;
+    margin-right: 0.5rem;
+}
+.app {
+    padding: 0 5px;
+    padding-top: 2px;
+    align-items: center;
+    justify-content: center;
+}
+.app a {
+    margin: 0;
+    padding: 0;
+}
+.app img {
+    width: 24px;
+    padding: 6px;
+}
+.icon {
+    padding: 4px 2px;
+    height: max-content;
+}
+.icon a {
+    margin: 0;
+    padding: 4px;
+}
+.icon img {
+    width: 34px;
+    border-radius: 50%;
+}
+.icon img:hover {
+    border-radius: 50%;
+    box-shadow: 0 0 3px 3px rgb(187, 187, 187);
+}
+
+.app img:hover {
+    border-radius: 50%;
+    box-shadow: inset 0 0 20px 20px rgb(187, 187, 187);
+}
+.logo-banner div {
+    padding: 1rem;
+    width: max-content;
+    margin: auto;
+}
+.logo-banner img {
+    width: 272px;
+}
+.search-box {
+    display: flex;
+    border: solid 1px rgb(211, 211, 211);
+    width: 580px;
+    margin: auto;
+    justify-content: space-between;
+    padding: 0 1rem;
+    border-radius: 60px;
+}
+.search-box:hover {
+    box-shadow: 0 0 5px rgb(187, 187, 187);
+}
+.search-box div {
+    padding: 0.5rem;
+}
+#search-input {
+    border: none;
+    width: 100%;
+    padding: 0.5rem;
+    outline: none;
+}
+.search-btns {
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input[type="button"] {
+    margin: 1rem;
+    padding: 0.5rem 1rem;
+    border: none;
+    background-color: rgb(245, 245, 245);
+    border-radius: 5px;
+}
+input[type="button"]:hover {
+    box-shadow: 0 0 1px 1px rgb(187, 187, 187);
+}
+footer {
+    background-color: #f2f2f2;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    
+}
+.footer-div {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+footer a {color: #70757a;}
+
+@media screen and (max-width:680px) { 
+    .search-box {
+        width: 90%;
+    }
+}
